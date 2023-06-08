@@ -2,7 +2,7 @@
 const nextConfig = {
     env: {
         APP_NAME: 'APP',
-        API_URL: 'http://local-boltech-insurance.com'
+        API_URL: 'http://local-app.com'
      },
 }
 module.exports = nextConfig
