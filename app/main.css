@@ -1,0 +1,93 @@
+
+.btn{
+  border-radius: 0 !important;
+}
+
+.f-btn-right{
+  text-align: right;
+}
+
+.th-primary{
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+}
+
+.nobr{
+  white-space: nowrap;
+}
+
+.dropdown-menu{
+  border-radius: 0 !important;
+}
+
+.app-content {
+  padding: 15px !important;
+}
+.breadcrumb {
+  padding: 0 0 !important;
+}
+.tile .tile-footer {
+  border-top: none !important;
+  margin-top: 35px !important;
+}
+
+.app-breadcrumb  a {
+  color: #009688 !important;
+}
+
+.app-icon_favorit{
+  cursor: pointer;
+}
+
+.app-icon_favorit:hover ,.app-icon_favorit:active{
+  cursor: pointer;
+  color: #009688 !important;
+}
+.app-icon_favorit[isActive=true]{
+  cursor: pointer;
+  color: #009688 !important;
+}
+.rct-node-icon {
+  color: #009688 !important;
+}
+@media (max-width: 767px) {
+  .app-nav-profile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .app-nav-profile {
+    display: inline;
+  }
+}
+.btn-mini {
+  padding: 5px 10px !important;
+  line-height: 14px !important;
+  font-size: 10px !important;
+}
+.btn-mini > i{
+  margin: 0 !important;
+}
+
+.menu-icon{
+  margin-bottom: 0 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+} 
+
+.notify-badge{
+  position: absolute;
+  right:12px;
+  top:10px;
+  color:white;
+  padding: 6px 14px !important;
+}
+
+.btn-okta{
+  background: #1662dd !important;
+  border-color: #1662dd !important;
+  color: #ffffff !important;
+}
