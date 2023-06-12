@@ -6,25 +6,23 @@ export const metadata = {
   title: process.env.APP_NAME+" :: Home",
 };
 
-export async function getStaticProps() {
+export const revalidate = 5;
 
-  console.log("----------------");
-  const response = await fetch("https://dummyjson.com/users?limit=10");
+async function getMenus() {
+  
+  const response = await fetch(`${process.env.API_URL}/api/menus`,{ cache: 'no-store' });
   const data  = await response.json();
-  // const menu = data
-  console.log("----------------");
-  console.log(data.users);
-
-  return { props: {menus: data.users} };
-
+  console.log(data);
+  return data.items;
 }
 
-export default function MenuIconPage({menus}) {
-
-  console.log(menus);
+export default async function MenuIconPage() {
 
   const title_page = { titlePage: process.env.APP_NAME };
   const crumbs = [{}];
+
+  const menus = await getMenus();
+
 
   return (
     <>

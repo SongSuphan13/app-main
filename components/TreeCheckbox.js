@@ -9,6 +9,8 @@ export default function TreeCheckbox() {
     const [checked, setChecked] = useState([]);
     const [expanded, setExpanded] = useState([process.env.APP_NAME]);
 
+    console.log(expanded);
+
     const nodes = [
         {
             value: process.env.APP_NAME,

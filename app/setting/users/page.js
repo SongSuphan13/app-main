@@ -30,29 +30,29 @@ export default function Home() {
                                 <div className="tile-body">
                                     <form className="row">
                                         <div className="form-group col-md-3">
-                                            <label className="control-label">Username</label>
-                                            <input className="form-control" type="text" />
+                                            <label className="control-label">รหัสผู้ใช้งาน</label>
+                                            <input className="form-control" type="text" id="s_username"/>
                                         </div>
                                         <div className="form-group col-md-3">
-                                            <label className="control-label">First Name</label>
-                                            <input className="form-control" type="text" />
+                                            <label className="control-label">ชื่อ</label>
+                                            <input className="form-control" type="text" id="s_frist_name"/>
                                         </div>
                                         <div className="form-group col-md-3">
-                                            <label className="control-label">Last Name</label>
-                                            <input className="form-control" type="text" />
+                                            <label className="control-label">นามสกุล</label>
+                                            <input className="form-control" type="text" id="s_last_name"/>
                                         </div>
                                         <div className="form-group col-md-3">
-                                            <label className="control-label">Full Name</label>
-                                            <input className="form-control" type="text" />
+                                            <label className="control-label">ชื่อเต็ม</label>
+                                            <input className="form-control" type="text" id="s_full_name"/>
                                         </div>
                                         <div className="form-group col-md-3">
-                                            <label className="control-label">Email</label>
-                                            <input className="form-control" type="text" />
+                                            <label className="control-label">อีเมล</label>
+                                            <input className="form-control" type="text"  id="s_email"/>
                                         </div>
                                         <div className="form-group col-md-3">
-                                            <label className="control-label">Active Status</label>
-                                            <select className="form-control" id="exampleSelect1" >
-                                                <option>-please select-</option>
+                                            <label className="control-label">สถานะการใช้งาน</label>
+                                            <select className="form-control" id="s_active_status">
+                                                <option>-all-</option>
                                                 <option>Active</option>
                                                 <option>Inactive</option>
                                             </select>

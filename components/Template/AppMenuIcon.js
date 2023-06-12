@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function AppMenuIcon({ menus = [] }) {
+export default function AppMenuIcon({ menus }) {
 
   return (
     <>
@@ -9,9 +9,9 @@ export default function AppMenuIcon({ menus = [] }) {
           <div className="col-md-3" key={index} >
             <div className="tile">
               <div className="tile-title-w-btn menu-icon">
-              <Link href={menu.menu_url ? menu.menu_url:'menu/'+menu.id}>
+              <Link href={menu.menu_url ? menu.menu_url : 'menu/'+menu.id}>
                 <Image
-                  src={menu.menu_icon}
+                  src={menu.menu_icon ? menu.menu_icon:'/icon/picture3.png'}
                   width={75}
                   height={75}
                   alt={menu.menu_name}
