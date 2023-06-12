@@ -28,21 +28,21 @@ export default function ProfilePage() {
                                         </div>
                                         <div className="form-group col-md-3">
                                             <label className="control-label">Last Name</label><br/>
-                                            Phiothongngam
+                                            
                                         </div>
                                         <div className="form-group col-md-3">
                                             <label className="control-label">Email</label><br/>
-                                            sathaphon.phi@fwdgi.com
+                                             
                                         </div>
                                         <div className="form-group col-md-3">
                                             <label className="control-label">Mobile</label><br/>
-                                            090-432-2873
+                                              
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="form-group col-md-3">
                                             <label className="control-label">Username</label><br/>
-                                            sathaphon.phi
+                                               
                                         </div>
                                     </div>
                                 </div>

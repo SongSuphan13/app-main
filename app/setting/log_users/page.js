@@ -61,8 +61,8 @@ export default function Home() {
                                         <tbody>
                                             <tr>
                                                 <td className="text-center">1</td>
-                                                <td>Sathaphon.phi</td>
-                                                <td>Sathaphon Phiothongngam</td>
+                                                <td>   </td>
+                                                <td>Sathaphon     </td>
                                                 <td className="text-center nobr">
                                                     <Link href="setting/log_users/view" className="btn btn-info btn-mini">
                                                         <i className="fa fa-search" aria-hidden="true"></i>

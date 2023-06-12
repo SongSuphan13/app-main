@@ -57,10 +57,10 @@ export default function Home() {
                                         <tbody>
                                             <tr>
                                                 <td className="text-center">1</td>
-                                                <td>Sathaphon.phi</td>
+                                                <td>   </td>
                                                 <td>Sathaphon</td>
-                                                <td>Phiothongngam</td>
-                                                <td>Sathaphon.phi@fwdgi.com</td>
+                                                <td>    </td>
+                                                <td> </td>
                                                 <td>090-4332132</td>
                                                 <td className="text-center nobr">Active</td>
                                                 <td className="text-center nobr">
